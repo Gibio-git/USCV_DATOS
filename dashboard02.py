@@ -6,7 +6,7 @@ import unicodedata, re            # normalización de textos
 
 # ===================== Configuración general =====================
 st.set_page_config(
-    page_title="Protocolo GIBIO Dashboard",
+    page_title="Protocolo CIBIO Dashboard",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -98,8 +98,8 @@ st.markdown("""
     margin-top: 2.5rem;        /* 🔹 más margen arriba */
     margin-bottom: 1rem;       /* 🔹 mantiene buena separación abajo */
 ">
-📊 Protocolo de Evaluaciones Cardiovasculares — 
-<span style="color:#58a6ff;">GIBIO FRBA</span>
+📊 Unidad de Salud Cardiovascular — 
+<span style="color:#58a6ff;">CIBIO FRBA</span>
 </div>
 """, unsafe_allow_html=True)
 
